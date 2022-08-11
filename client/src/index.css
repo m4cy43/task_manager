@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.task-manager_name{
+    margin: 18px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.task-manager_head-menu{
+    background: rgba(0, 0, 0,   0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.task-manager_head-navigation{
+    margin: 0 auto;
+    width: 88.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-manager_links{
+    display: flex;
+
+}
+
+.task-manager_links-item:nth-child(-n+2){
+    margin: 17px 24px 17px 0;
+}
+
+.task-manager_links-item:nth-last-child(-n+2){
+    color: #FFFFFF;
+    margin-top: 19px;
+    margin-left:10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.task-manager_links-item:nth-child(3){
+    margin: 17px 38px 17px 0;
+    position: relative;
+}
+.task-manager_links-item:nth-child(3)::after{
+    content: "";
+    width: 1px;
+    height: 19px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: -1px;
+    right: -25px;
+}
+
+.sign-up{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width:25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.sign-up_phrase{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom:20px;
+}
+
+.sign-up_form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: inherit;
+
+}
+.form-submit{
+    padding: 10px 20px 10px 20px;
+    
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    appearance: button;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form-submit:hover {
+    transform: scale(0.98);
+}
+
+
+/* .main-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-name{
+    border: 1px solid #F2F2F2;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-lastname{
+    border: 1px solid #F2F2F2;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-email{
+    border: 1px solid #F2F2F2;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-password{
+    border: 1px solid #F2F2F2;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-password_confirm{
+    border: 1px solid #F2F2F2;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    outline: none;
+}
+
+
+.form-name{
+    margin: 0;
+}
+
+.form-lastname,
+.form-email,
+.form-password,
+.form-password_confirm{
+    margin: 15px 0 0 0;
+}
+.form-name:focus,
+.form-lastname:focus,
+.form-email:focus,
+.form-password:focus,
+.form-password_confirm:focus{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+}
+
+.form-name::placeholder,
+.form-lastname::placeholder,
+.form-email::placeholder,
+.form-password::placeholder,
+.form-password_confirm::placeholder{
+    color: #BEBEBE;
+}
+
+
+
+.form-submit{
+    margin: 20px 0 38px 0;
+    border: none;
+    padding: 16px;
+    background: rgba(60, 184, 120, 0.8);
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    color: #FFFFFF;
+} */
