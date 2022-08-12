@@ -1,9 +1,15 @@
 import React from 'react'
 
 function LogIn() {
-  return (
-    <div></div>
-  )
+    return (
+
+        <div className="Login">
+
+
+        </div>
+
+    )
+
 }
 
 export default LogIn
