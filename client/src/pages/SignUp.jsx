@@ -2,9 +2,11 @@ import React from 'react'
 
 function SignUp() {
     return (
+        
         <div className="sign-up">
 
             <h4 className="sign-up_phrase">Sign Up</h4>
+
             <form className="sign-up_form">
 
                 <input type="text" name="name" placeholder="Enter your name"></input>
@@ -14,8 +16,11 @@ function SignUp() {
                 <button className="form-submit">Create Account</button>
 
             </form>
+
         </div>
+
     )
+
 }
 
 export default SignUp
