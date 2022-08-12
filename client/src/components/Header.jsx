@@ -2,19 +2,17 @@ import React from 'react';
 import { BsFillCalendarDateFill } from "react-icons/bs";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { BsSearch } from "react-icons/bs";
-import { Link, useNative } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
         <div className="back-image">
             <header className="task-manager_head-menu">
-
                 <div className="task-manager_head-navigation">
-
+                <Link to="/">
                     <h3 className="task-manager_name">SillyTask</h3>
-
+                </Link>
                     <ul className="task-manager_links">
-
                         <li className="task-manager_links-item">
                             <Link to="#">
                                 <BsFillCalendarDateFill />
@@ -36,13 +34,9 @@ function Header() {
                         <li className="task-manager_links-item">
                             <Link to="/signup">Sign Up</Link>
                         </li>
-
                     </ul>
-
                 </div>
-
-            </header>
-            
+            </header>            
         </div>
     )
 }

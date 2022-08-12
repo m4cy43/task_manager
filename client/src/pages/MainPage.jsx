@@ -7,7 +7,8 @@ function MainPage() {
         <div className="main-page">
             <div className="main-page-head">
 
-                <button><AiFillPlusSquare /> <AiFillCloseSquare /></button>
+                <button><AiFillPlusSquare /></button>
+                <button><AiFillCloseSquare /></button>
                 <p>Today is ...</p>
 
             </div>
