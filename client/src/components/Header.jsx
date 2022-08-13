@@ -3,7 +3,17 @@ import { BsFillCalendarDateFill } from "react-icons/bs";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { BsSearch } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import {useState} from "react";
+import ReactDOM from "react-dom/client";
 
+// function Background(){
+
+        // let back=document.querySelector(".back-image");
+        // back.useState(/*something*/);
+//     return (
+
+//     )
+// }
 function Header() {
     return (
         <div className="back-image">
@@ -40,5 +50,6 @@ function Header() {
         </div>
     )
 }
-
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<Background />);
 export default Header
