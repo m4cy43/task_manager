@@ -16,7 +16,7 @@ import ReactDOM from "react-dom/client";
 // }
 function Header() {
     return (
-        <div className="back-image">
+        <>
             <header className="task-manager_head-menu">
                 <div className="task-manager_head-navigation">
                 <Link to="/">
@@ -47,7 +47,7 @@ function Header() {
                     </ul>
                 </div>
             </header>            
-        </div>
+        </>
     )
 }
 // const root = ReactDOM.createRoot(document.getElementById("root"));
