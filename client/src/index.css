@@ -263,6 +263,9 @@ a{
     color: #FFFFFF;
 }
 
+.create-button:hover{
+    transform: scale(0.98);
+}
 /*Task Item*/
 .main-page-task{
     display:flex;
@@ -282,9 +285,10 @@ a{
 .main-page-tasks-item{
     display:grid;
     grid-template-areas: 
-    "name deadline"
-    "info info";
+    "name deadline mainIcon"
+    "info info info";
     gap: 10px;
+    column-gap:70px;
     border: 2px solid green;
     border-radius:30px;
     padding: 20px 30px;
@@ -300,4 +304,7 @@ a{
 }
 .main-page-tasks-item-text{
     grid-area: info;
+}
+.main-page-tasks-item-icon{
+    grid-area: mainIcon;
 }
