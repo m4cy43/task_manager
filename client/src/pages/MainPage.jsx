@@ -10,15 +10,6 @@ function MainPage() {
             <MainForm />
             <div className="main-page-task">
                 <div className="main-page-tasks">
-                    <TaskItem goal={{name: "Andrew", content: "Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task"}} deadline={"3 weeks"}/>
-                    <TaskItem goal={{name: "Andrew", content: "Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task"}} deadline={"3 weeks"}/>
-                    <TaskItem goal={{name: "Andrew", content: "Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task"}} deadline={"3 weeks"}/>
-                    <TaskItem goal={{name: "Andrew", content: "Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task"}} deadline={"3 weeks"}/>
-                    <TaskItem goal={{name: "Andrew", content: "Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task"}} deadline={"3 weeks"}/>
-                    <TaskItem goal={{name: "Andrew", content: "Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task"}} deadline={"3 weeks"}/>
-                    <TaskItem goal={{name: "Andrew", content: "Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task"}} deadline={"3 weeks"}/>
-                    <TaskItem goal={{name: "Andrew", content: "Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task Super easy task"}} deadline={"3 weeks"}/>
-                    <TaskItem goal={{name: "Andrew", content: "Super easy task Super easy task Super easy task Super easy task "}} deadline={"3 weeks"}/>
                 </div>
             </div>
             
