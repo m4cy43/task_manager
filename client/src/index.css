@@ -82,7 +82,7 @@ body{
 }
 
 .task-manager_links-item:nth-last-child(-n+2){
-    color: #FFFFFF;
+    color: #000000;
     margin-top: 19px;
     margin-left:10px;
     font-family: 'Ubuntu', sans-serif;

@@ -14,7 +14,7 @@ function Header() {
   const onLogout = () => {
     dispatch(logout());
     dispatch(reset());
-    navigate("/login");
+    navigate("/");
   };
 
   return (
@@ -43,6 +43,7 @@ function Header() {
             {user ? (
               <>
                 <li onClick={onLogout} className="task-manager_links-item">Logout</li>
+                <li className="task-manager_links-item">({user.name})</li>
               </>
             ) : (
               <>
